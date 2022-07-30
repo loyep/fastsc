@@ -1,8 +1,9 @@
 export const MIN_NODE_VERSION = 14;
 export const DEFAULT_CONFIG_FILES = [
+  '.fastscrc.ts',
   '.fastscrc.js',
-  'build.config.ts',
-  'build.config.js',
+  // 'build.config.ts',
+  // 'build.config.js',
 ];
 export const FRAMEWORK_NAME = 'fastsc';
 export const WATCH_DEBOUNCE_STEP = 300;

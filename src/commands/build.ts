@@ -9,7 +9,7 @@ const build = new Command({
       cwd: api.cwd,
       pkg: api.pkg,
       clean: args.clean,
-      quiet: args.quiet,
+      quiet: args.quiet ?? true,
     });
   },
 });

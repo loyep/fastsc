@@ -1,6 +1,6 @@
 {
   "name": "fastsc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fastsc",
   "homepage": "https://github.com/loyep/fastsc#readme",
   "bugs": "https://github.com/loyep/fastsc/issues",
@@ -17,11 +17,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "fastsc": "bin/fastsc.js"
+    "fastsc": "dist/bin/index.js"
   },
   "files": [
     "dist",
-    "bin",
     "compiled"
   ],
   "scripts": {
