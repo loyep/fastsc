@@ -110,12 +110,6 @@ export class Service {
     // collect all bundless js transformers
     const jsTransformers: ITransformerItem[] = [
       {
-        id: JSTransformerTypes.BABEL,
-        transformer: require.resolve(
-          '../builder/bundless/loaders/javascript/babel',
-        ),
-      },
-      {
         id: JSTransformerTypes.ESBUILD,
         transformer: require.resolve(
           '../builder/bundless/loaders/javascript/esbuild',
