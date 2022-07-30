@@ -1,0 +1,20 @@
+{
+  "automerge": false,
+  "commitMessageAction": "Bump",
+  "commitMessageExtra": "to {{newValue}}",
+  "commitMessageTopic": "{{depName}}",
+  "extends": ["config:base", ":preserveSemverRanges"],
+  "ignoreDeps": ["zx", "chalk"],
+  "ignorePaths": ["fixtures", "test/"],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "packageRules": [
+    {
+      "updateTypes": ["major"],
+      "labels": ["UPDATE-MAJOR"]
+    },
+    {
+      "matchDepTypes": ["engines", "@types/node"],
+      "enabled": false
+    }
+  ]
+}
