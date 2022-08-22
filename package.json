@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.18.9",
-    "@microsoft/api-extractor": "7.28.6",
+    "@microsoft/api-extractor": "7.29.3",
     "@vercel/ncc": "0.34.0",
     "babel-plugin-module-resolver": "4.1.0",
     "babel-plugin-react-require": "3.1.3",
