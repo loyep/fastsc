@@ -179,7 +179,7 @@ export function normalizeUserConfig(userConfig: FastscConfig, pkg: PkgType) {
       transformer:
         bundlessConfig.platform === PlatformTypes.NODE
           ? JSTransformerTypes.ESBUILD
-          : JSTransformerTypes.BABEL,
+          : JSTransformerTypes.ESBUILD,
 
       ...bundlessConfig,
 
@@ -207,7 +207,7 @@ export function normalizeUserConfig(userConfig: FastscConfig, pkg: PkgType) {
         transformer:
           overridePlatform === PlatformTypes.NODE
             ? JSTransformerTypes.ESBUILD
-            : JSTransformerTypes.BABEL,
+            : JSTransformerTypes.ESBUILD,
 
         // default to output relative root config
         output: `${rootConfig.output}/${winPath(

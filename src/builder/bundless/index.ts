@@ -1,10 +1,10 @@
 import fs from 'fs';
+import debounce from 'lodash/debounce';
 import path from 'path';
 import chalk from '../../../compiled/chalk';
 import chokidar from '../../../compiled/chokidar';
 import debug from '../../../compiled/debug';
 import glob from '../../../compiled/fast-glob';
-import lodash from '../../../compiled/lodash';
 import rimraf from '../../../compiled/rimraf';
 import { DEBUG_BUNDLESS_NAME, WATCH_DEBOUNCE_STEP } from '../../constants';
 import * as logger from '../../logger';
@@ -190,7 +190,7 @@ async function bundless(
       })
       .on(
         'change',
-        lodash.debounce(
+        debounce(
           (filePath: string) => {
             transformFiles([filePath], opts);
           },

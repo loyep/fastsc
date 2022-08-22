@@ -115,6 +115,12 @@ export class Service {
           '../builder/bundless/loaders/javascript/esbuild',
         ),
       },
+      {
+        id: JSTransformerTypes.BABEL,
+        transformer: require.resolve(
+          '../builder/bundless/loaders/javascript/babel',
+        ),
+      },
     ];
 
     // register js transformers

@@ -1,8 +1,8 @@
 import path from 'path';
 import { ModuleKind } from 'typescript';
+import deepmerge from '../../compiled/deepmerge';
 import esbuild from '../../compiled/esbuild';
 import fse from '../../compiled/fs-extra';
-import lodash from '../../compiled/lodash';
 import { getTsconfig } from '../builder/bundless/dts';
 import { DEFAULT_CONFIG_FILES } from '../constants';
 import * as register from '../register';
@@ -25,7 +25,7 @@ function getUserConfig(configFiles: string[]) {
         implementor: esbuild,
       });
       register.clearFiles();
-      config = lodash.merge(config, require(configFile).default);
+      config = deepmerge(config, require(configFile).default);
       for (const file of register.getFiles()) {
         delete require.cache[file];
       }
@@ -193,7 +193,7 @@ export class Config {
           implementor: esbuild,
         });
         register.clearFiles();
-        config = lodash.merge(config, require(configFile).default);
+        config = deepmerge(config, require(configFile).default);
         for (const file of register.getFiles()) {
           delete require.cache[file];
         }
@@ -204,7 +204,7 @@ export class Config {
         files.push(configFile);
       }
     }
-    if (lodash.isEmpty(config)) {
+    if (!Object.keys(config).length) {
       const tsconfig = getTsconfig(opts.cwd);
       let type = 'esm';
       switch (tsconfig?.options.module) {

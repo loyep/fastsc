@@ -1,7 +1,7 @@
 import { defineConfig } from 'fastsc';
 
 export default defineConfig({
-  cjs: {
+  esm: {
     output: 'dist',
   },
 });
