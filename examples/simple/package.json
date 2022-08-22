@@ -1,0 +1,10 @@
+{
+  "name": "simple",
+  "scripts": {
+    "build": "pnpm fastsc build",
+    "build:tsc": "pnpm tsc"
+  },
+  "devDependencies": {
+    "fastsc": "workspace:*"
+  }
+}

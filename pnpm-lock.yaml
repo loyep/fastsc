@@ -127,6 +127,12 @@ importers:
       yargs-parser: 21.0.1
       zx: 4.3.0
 
+  examples/simple:
+    specifiers:
+      fastsc: workspace:*
+    devDependencies:
+      fastsc: link:../..
+
 packages:
 
   /@ampproject/remapping/2.2.0:
