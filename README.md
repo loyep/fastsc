@@ -13,11 +13,24 @@
 </p>
 
 
-## Usage
-
 
 ## Install
 
+Install it locally in your project folder:
+
+```
+npm i fastsc -D
+# Or Yarn
+yarn add fastsc --dev
+# Or Pnpm
+pnpm add fastsc -D
+```
+
+## Usage
+
+```
+fastsc build
+```
 
 ## Fastsc Vs Tsc
 

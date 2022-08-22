@@ -1,7 +1,9 @@
 import path from 'path';
+import { ModuleKind } from 'typescript';
 import esbuild from '../../compiled/esbuild';
 import fse from '../../compiled/fs-extra';
 import lodash from '../../compiled/lodash';
+import { getTsconfig } from '../builder/bundless/dts';
 import { DEFAULT_CONFIG_FILES } from '../constants';
 import * as register from '../register';
 import type { FastscConfig } from './types';
@@ -173,6 +175,7 @@ export class Config {
       specifiedEnv: this.opts.specifiedEnv,
     });
     return Config.getUserConfig({
+      cwd: this.opts.cwd,
       configFiles: getAbsFiles({
         files: configFiles,
         cwd: this.opts.cwd,
@@ -180,7 +183,7 @@ export class Config {
     });
   }
 
-  static getUserConfig(opts: { configFiles: string[] }) {
+  static getUserConfig(opts: { configFiles: string[]; cwd: string }) {
     let config = {};
     const files: string[] = [];
 
@@ -200,6 +203,26 @@ export class Config {
       } else {
         files.push(configFile);
       }
+    }
+    if (lodash.isEmpty(config)) {
+      const tsconfig = getTsconfig(opts.cwd);
+      let type = 'esm';
+      switch (tsconfig?.options.module) {
+        case ModuleKind.CommonJS:
+          type = 'cjs';
+          break;
+        case ModuleKind.UMD:
+          type = 'umd';
+          break;
+        default:
+          break;
+      }
+      config = {
+        [type]: {
+          dist: tsconfig?.options.outDir || 'dist',
+          rootDir: tsconfig?.options.rootDir || 'src',
+        },
+      };
     }
 
     return {
