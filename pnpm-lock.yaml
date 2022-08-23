@@ -45,7 +45,7 @@ importers:
       jest-mock-process: ^1.5.1
       just-diff: ^5.0.3
       lint-staged: ^13.0.1
-      loader-runner: 4.2.0
+      loader-runner: 4.3.0
       lodash: ^4.17.21
       minimatch: 3.1.2
       pirates: ^4.0.5
@@ -72,7 +72,7 @@ importers:
       babel-plugin-transform-define: 2.0.1
       esbuild: 0.14.50
       file-system-cache: 2.0.0
-      loader-runner: 4.2.0
+      loader-runner: 4.3.0
       lodash: 4.17.21
       minimatch: 3.1.2
       tsconfig-paths: 4.0.0
@@ -3904,8 +3904,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /loader-runner/4.2.0:
-    resolution: {integrity: sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==}
+  /loader-runner/4.3.0:
+    resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==}
     engines: {node: '>=6.11.5'}
     dev: false
 
