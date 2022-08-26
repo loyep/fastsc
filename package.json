@@ -1,6 +1,6 @@
 {
   "name": "fastsc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "fastsc",
   "homepage": "https://github.com/loyep/fastsc#readme",
   "bugs": "https://github.com/loyep/fastsc/issues",
@@ -49,6 +49,7 @@
   "dependencies": {
     "@babel/core": "^7.18.9",
     "@microsoft/api-extractor": "7.29.5",
+    "@zerollup/ts-transform-paths": "1.7.18",
     "babel-plugin-module-resolver": "4.1.0",
     "babel-plugin-react-require": "3.1.3",
     "babel-plugin-transform-define": "2.0.1",
@@ -79,7 +80,6 @@
     "@types/semver": "7.3.12",
     "@types/yargs-parser": "^21.0.0",
     "@vercel/ncc": "0.34.0",
-    "@zerollup/ts-transform-paths": "1.7.18",
     "chalk": "^5.0.1",
     "chokidar": "^3.5.3",
     "cross-spawn": "^7.0.3",

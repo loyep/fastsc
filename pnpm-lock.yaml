@@ -67,6 +67,7 @@ importers:
     dependencies:
       '@babel/core': 7.18.9
       '@microsoft/api-extractor': 7.29.5
+      '@zerollup/ts-transform-paths': 1.7.18_typescript@4.7.4
       babel-plugin-module-resolver: 4.1.0
       babel-plugin-react-require: 3.1.3
       babel-plugin-transform-define: 2.0.1
@@ -96,7 +97,6 @@ importers:
       '@types/semver': 7.3.12
       '@types/yargs-parser': 21.0.0
       '@vercel/ncc': 0.34.0
-      '@zerollup/ts-transform-paths': 1.7.18_typescript@4.7.4
       chalk: 5.0.1
       chokidar: 3.5.3
       cross-spawn: 7.0.3
@@ -1309,7 +1309,7 @@ packages:
     dependencies:
       resolve: 1.22.1
       typescript: 4.7.4
-    dev: true
+    dev: false
 
   /@zerollup/ts-transform-paths/1.7.18_typescript@4.7.4:
     resolution: {integrity: sha512-YPVUxvWQVzRx1OBN0Pmkd58+R9FcfUJuwTaPUSoi5rKxuXMtxevTXdfi0w5mEaIH8b0DfL+wg0wFDHiJE+S2zA==}
@@ -1318,7 +1318,7 @@ packages:
     dependencies:
       '@zerollup/ts-helpers': 1.7.18_typescript@4.7.4
       typescript: 4.7.4
-    dev: true
+    dev: false
 
   /JSONStream/1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
