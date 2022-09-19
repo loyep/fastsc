@@ -26,7 +26,7 @@ importers:
       '@zerollup/ts-transform-paths': 1.7.18
       babel-plugin-module-resolver: 4.1.0
       babel-plugin-react-require: 3.1.3
-      babel-plugin-transform-define: 2.0.1
+      babel-plugin-transform-define: 2.1.0
       chalk: ^5.0.1
       chokidar: ^3.5.3
       cross-spawn: ^7.0.3
@@ -70,7 +70,7 @@ importers:
       '@zerollup/ts-transform-paths': 1.7.18_typescript@4.7.4
       babel-plugin-module-resolver: 4.1.0
       babel-plugin-react-require: 3.1.3
-      babel-plugin-transform-define: 2.0.1
+      babel-plugin-transform-define: 2.1.0
       esbuild: 0.15.5
       file-system-cache: 2.0.0
       loader-runner: 4.3.0
@@ -1581,8 +1581,8 @@ packages:
     resolution: {integrity: sha512-kDXhW2iPTL81x4Ye2aUMdEXQ56JP0sBJmRQRXJPH5FsNB7fOc/YCsHTqHv8IovPyw9Rk07gdd7MVUz8tUmRBCA==}
     dev: false
 
-  /babel-plugin-transform-define/2.0.1:
-    resolution: {integrity: sha512-7lDR1nFGSJHmhq/ScQtp9LTDmNE2yKPoLtwfiu+WQZnj84XL/J/5AZWZXwYcOwbDtUPhtg+y0yxTiP/oGDU6Kw==}
+  /babel-plugin-transform-define/2.1.0:
+    resolution: {integrity: sha512-bYuE8BNUnWuUs+QAmOaA+5+Bg+W7r6x97JX2Nb3xNlI91mLWH1OvIKcGqyJWPU5bWhEfJRbYi02CRarmiH6Tog==}
     engines: {node: '>= 8.x.x'}
     dependencies:
       lodash: 4.17.21
