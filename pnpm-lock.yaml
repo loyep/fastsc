@@ -16,7 +16,7 @@ importers:
       '@types/jest': ^28.0.0
       '@types/loader-runner': 2.2.4
       '@types/lodash': ^4.0.0
-      '@types/minimatch': 3.0.5
+      '@types/minimatch': 5.1.2
       '@types/node': ^18.0.0
       '@types/resolve': ^1.20.2
       '@types/rimraf': ^3.0.2
@@ -90,7 +90,7 @@ importers:
       '@types/jest': 28.1.7
       '@types/loader-runner': 2.2.4
       '@types/lodash': 4.14.182
-      '@types/minimatch': 3.0.5
+      '@types/minimatch': 5.1.2
       '@types/node': 18.6.1
       '@types/resolve': 1.20.2
       '@types/rimraf': 3.0.2
@@ -1156,7 +1156,7 @@ packages:
   /@types/glob/7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
-      '@types/minimatch': 3.0.5
+      '@types/minimatch': 5.1.2
       '@types/node': 18.6.1
     dev: true
 
@@ -1213,8 +1213,8 @@ packages:
     resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
     dev: true
 
-  /@types/minimatch/3.0.5:
-    resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
+  /@types/minimatch/5.1.2:
+    resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
     dev: true
 
   /@types/minimist/1.2.2:

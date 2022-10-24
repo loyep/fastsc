@@ -73,7 +73,7 @@
     "@types/jest": "^28.0.0",
     "@types/loader-runner": "2.2.4",
     "@types/lodash": "^4.0.0",
-    "@types/minimatch": "3.0.5",
+    "@types/minimatch": "5.1.2",
     "@types/node": "^18.0.0",
     "@types/resolve": "^1.20.2",
     "@types/rimraf": "^3.0.2",
