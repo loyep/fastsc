@@ -37,7 +37,7 @@ importers:
       esbuild-jest: 0.5.0
       fast-glob: ^3.2.11
       file-system-cache: 2.0.1
-      fs-extra: ^10
+      fs-extra: ^11.0.0
       git-repo-info: ^2.1.1
       husky: ^8.0.1
       import-lazy: 4.0.0
@@ -105,7 +105,7 @@ importers:
       dts-packer: 0.0.3
       esbuild-jest: 0.5.0_esbuild@0.15.5
       fast-glob: 3.2.11
-      fs-extra: 10.1.0
+      fs-extra: 11.0.0
       git-repo-info: 2.1.1
       husky: 8.0.1
       import-lazy: 4.0.0
@@ -2928,6 +2928,15 @@ packages:
       graceful-fs: 4.2.10
       jsonfile: 6.1.0
       universalify: 2.0.0
+
+  /fs-extra/11.0.0:
+    resolution: {integrity: sha512-4YxRvMi4P5C3WQTvdRfrv5UVqbISpqjORFQAW5QPiKAauaxNCwrEdIi6pG3tDFhKKpMen+enEhHIzB/tvIO+/w==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: true
 
   /fs-extra/7.0.1:
     resolution: {integrity: sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==}
