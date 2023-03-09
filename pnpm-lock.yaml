@@ -60,14 +60,14 @@ importers:
       ts-node: ^10.0.0
       tsconfig-paths: 4.1.0
       tsx: ^3.8.0
-      typescript: ~4.7.0
+      typescript: ~4.9.0
       v8-compile-cache: 2.3.0
       yargs-parser: ^21.0.1
       zx: ^4
     dependencies:
       '@babel/core': 7.18.9
       '@microsoft/api-extractor': 7.33.4
-      '@zerollup/ts-transform-paths': 1.7.18_typescript@4.7.4
+      '@zerollup/ts-transform-paths': 1.7.18_typescript@4.9.5
       babel-plugin-module-resolver: 4.1.0
       babel-plugin-react-require: 3.1.3
       babel-plugin-transform-define: 2.1.0
@@ -77,7 +77,7 @@ importers:
       lodash: 4.17.21
       minimatch: 5.1.0
       tsconfig-paths: 4.1.0
-      typescript: 4.7.4
+      typescript: 4.9.5
       v8-compile-cache: 2.3.0
     devDependencies:
       '@commitlint/cli': 17.0.3
@@ -116,13 +116,13 @@ importers:
       pirates: 4.0.5
       pkg-up: 4.0.0
       prettier: 2.7.1
-      prettier-plugin-organize-imports: 3.0.0_gd3y7r3s3evy6b2vthd7dmacga
+      prettier-plugin-organize-imports: 3.0.0_4nft6fvsuosm5mjbqvx4cravhy
       prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
       resolve: 1.22.1
       rimraf: 3.0.2
       semver: 7.3.7
-      ts-jest: 28.0.7_7brt4yv4asypizp64yubo2iwjy
-      ts-node: 10.9.1_f6w67sjx3imwytyzb2qhabnzqe
+      ts-jest: 28.0.7_muow6e7map3bnovogdsq62tdta
+      ts-node: 10.9.1_qp7ma6bmxebnxl6ng6zrzkwc5m
       tsx: 3.8.0
       yargs-parser: 21.0.1
       zx: 4.3.0
@@ -546,10 +546,10 @@ packages:
       '@types/node': 18.6.1
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 2.0.2_t6iukbiom2jlsbp4uv3roalcz4
+      cosmiconfig-typescript-loader: 2.0.2_qp7ma6bmxebnxl6ng6zrzkwc5m
       lodash: 4.17.21
       resolve-from: 5.0.0
-      typescript: 4.8.4
+      typescript: 4.9.5
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -1302,22 +1302,22 @@ packages:
     hasBin: true
     dev: true
 
-  /@zerollup/ts-helpers/1.7.18_typescript@4.7.4:
+  /@zerollup/ts-helpers/1.7.18_typescript@4.9.5:
     resolution: {integrity: sha512-S9zN+y+i5yN/evfWquzSO3lubqPXIsPQf6p9OiPMpRxDx/0totPLF39XoRw48Dav5dSvbIE8D2eAPpXXJxvKwg==}
     peerDependencies:
       typescript: '>=3.7.2'
     dependencies:
       resolve: 1.22.1
-      typescript: 4.7.4
+      typescript: 4.9.5
     dev: false
 
-  /@zerollup/ts-transform-paths/1.7.18_typescript@4.7.4:
+  /@zerollup/ts-transform-paths/1.7.18_typescript@4.9.5:
     resolution: {integrity: sha512-YPVUxvWQVzRx1OBN0Pmkd58+R9FcfUJuwTaPUSoi5rKxuXMtxevTXdfi0w5mEaIH8b0DfL+wg0wFDHiJE+S2zA==}
     peerDependencies:
       typescript: '>=3.7.2'
     dependencies:
-      '@zerollup/ts-helpers': 1.7.18_typescript@4.7.4
-      typescript: 4.7.4
+      '@zerollup/ts-helpers': 1.7.18_typescript@4.9.5
+      typescript: 4.9.5
     dev: false
 
   /JSONStream/1.3.5:
@@ -2020,7 +2020,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /cosmiconfig-typescript-loader/2.0.2_t6iukbiom2jlsbp4uv3roalcz4:
+  /cosmiconfig-typescript-loader/2.0.2_qp7ma6bmxebnxl6ng6zrzkwc5m:
     resolution: {integrity: sha512-KmE+bMjWMXJbkWCeY4FJX/npHuZPNr9XF9q9CIQ/bpFwi1qHfCmSiKarrCcRa0LO4fWjk93pVoeRtJAkTGcYNw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -2029,8 +2029,8 @@ packages:
     dependencies:
       '@types/node': 18.6.1
       cosmiconfig: 7.0.1
-      ts-node: 10.9.1_t6iukbiom2jlsbp4uv3roalcz4
-      typescript: 4.8.4
+      ts-node: 10.9.1_qp7ma6bmxebnxl6ng6zrzkwc5m
+      typescript: 4.9.5
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -3592,7 +3592,7 @@ packages:
       pretty-format: 28.1.3
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.1_f6w67sjx3imwytyzb2qhabnzqe
+      ts-node: 10.9.1_qp7ma6bmxebnxl6ng6zrzkwc5m
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4724,14 +4724,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.0.0_gd3y7r3s3evy6b2vthd7dmacga:
+  /prettier-plugin-organize-imports/3.0.0_4nft6fvsuosm5mjbqvx4cravhy:
     resolution: {integrity: sha512-juSCJs5TMOqGGPaN/A/1xzWFzRPH2LG1LPLCr64dzKaVnPafJdtgDNmDVlU+8A4LbQzVJg0DTvgA8swBuIUhlg==}
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
     dependencies:
       prettier: 2.7.1
-      typescript: 4.7.4
+      typescript: 4.9.5
     dev: true
 
   /prettier-plugin-packagejson/2.2.18_prettier@2.7.1:
@@ -5484,7 +5484,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-jest/28.0.7_7brt4yv4asypizp64yubo2iwjy:
+  /ts-jest/28.0.7_muow6e7map3bnovogdsq62tdta:
     resolution: {integrity: sha512-wWXCSmTwBVmdvWrOpYhal79bDpioDy4rTT+0vyUnE3ZzM7LOAAGG9NXwzkEL/a516rQEgnMmS/WKP9jBPCVJyA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -5516,11 +5516,11 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.7
-      typescript: 4.7.4
+      typescript: 4.9.5
       yargs-parser: 21.0.1
     dev: true
 
-  /ts-node/10.9.1_f6w67sjx3imwytyzb2qhabnzqe:
+  /ts-node/10.9.1_qp7ma6bmxebnxl6ng6zrzkwc5m:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5546,38 +5546,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.7.4
-      v8-compile-cache-lib: 3.0.1
-      yn: 3.1.1
-    dev: true
-
-  /ts-node/10.9.1_t6iukbiom2jlsbp4uv3roalcz4:
-    resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
-    hasBin: true
-    peerDependencies:
-      '@swc/core': '>=1.2.50'
-      '@swc/wasm': '>=1.2.50'
-      '@types/node': '*'
-      typescript: '>=2.7'
-    peerDependenciesMeta:
-      '@swc/core':
-        optional: true
-      '@swc/wasm':
-        optional: true
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.9
-      '@tsconfig/node12': 1.0.11
-      '@tsconfig/node14': 1.0.3
-      '@tsconfig/node16': 1.0.3
-      '@types/node': 18.6.1
-      acorn: 8.8.0
-      acorn-walk: 8.2.0
-      arg: 4.1.3
-      create-require: 1.1.1
-      diff: 4.0.2
-      make-error: 1.3.6
-      typescript: 4.8.4
+      typescript: 4.9.5
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -5637,13 +5606,14 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
-
   /typescript/4.8.4:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
 
